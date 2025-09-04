@@ -50,7 +50,7 @@ The property is not currently standard, this leaves a gap on implementations tha
 ## Goals
 
 * Standardize the `app-region` CSS property.
-* Allow a _standalone_ window to be moved by a user when no other platform UX is present.
+* Allowing standalone app window to define draggable and non-draggable region and support scenarios such as custom title bar.
 
 ## Non-goals
 
@@ -156,7 +156,7 @@ The process to standardize this feature was logged in an [issue #7017](https://g
 Note that there is [positive](https://github.com/w3c/csswg-drafts/issues/7017#issuecomment-1609114145) developer signals in the issue.
 
 ## Accessibility, Privacy, and Security Considerations
-There are no considerations at this time.
+* There are no additional considerations at this time.
 
 ## References & acknowledgements
 
